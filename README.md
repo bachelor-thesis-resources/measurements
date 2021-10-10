@@ -7,6 +7,8 @@ folder|description
 [eteam](https://github.com/bachelor-thesis-resources/measurements/tree/main/eteam) | measurements of 5 jvms using CFS
 [native-image](https://github.com/bachelor-thesis-resources/measurements/tree/main/native-image) | measurements native image version of the java app using CFS and eteam
 
+`ulysses16.tsp` is a reduced version of a symmetric TSP that served as input data to the program
+
 ## Java Versions 
 
 Descriptor | `java --version` / `native-image --version`
