@@ -3,9 +3,28 @@ Contains the obtained measurements
 
 folder|description
 -|-
-[cfs](https://github.com/bachelor-thesis-resources/measurements/tree/main/cfs) | measurements of 5 jvms using CFS
-[eteam](https://github.com/bachelor-thesis-resources/measurements/tree/main/eteam) | measurements of 5 jvms using CFS
-[native-image](https://github.com/bachelor-thesis-resources/measurements/tree/main/native-image) | measurements native image version of the java app using CFS and eteam
+[cfs](https://github.com/bachelor-thesis-resources/measurements/tree/main/cfs) | measurement data of 5 jvms using CFS
+[eteam](https://github.com/bachelor-thesis-resources/measurements/tree/main/eteam) | measurement data of 5 jvms using eteam scheduler
+[native-image](https://github.com/bachelor-thesis-resources/measurements/tree/main/native-image) | measurement data of the native-image version of the java app, using CFS and eteam
+
+## Plots
+
+Contains plots of the obtained measurements
+
+folder|description
+-|-
+[plots-cfs](https://github.com/bachelor-thesis-resources/measurements/tree/main/plots-cfs) | histogram and density plots of the jvms using CFS
+[plots-eteam](https://github.com/bachelor-thesis-resources/measurements/tree/main/plots-eteam) | histogram and density plots of the jvms using eteam
+[plots-native-image](https://github.com/bachelor-thesis-resources/measurements/tree/main/plots-native-image) | histogram and density plots of the native-image version of the java app, using CFS and eteam
+
+Every directory listed above contains two folders:
+
+folder | description
+-|-
+densitites | density plots 
+histograms | histogram plots
+
+## Ulysses16.tsp
 
 `ulysses16.tsp` is a reduced version of a symmetric TSP that served as input data to the program
 
